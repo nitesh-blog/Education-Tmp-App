@@ -1,0 +1,23 @@
+<section class="course">
+    <div class="container">
+        
+        <h1 class="text-center">All Course</h1>
+        <br><br><br>
+
+        <div class="row mt-5" >
+            <div class="col-lg-4 mb-5"*ngFor="let cs of course">
+                <div class="box shadow-sm">
+                    <img src="{{cs.image}}" width="50%">
+                    <h3>{{cs.name}}</h3>
+                    <p>{{cs.description}}</p>
+                    <h4>{{cs.Rs}}</h4>
+                    <button class="btn btn-primary btn-sm">Buy Now</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+</section>

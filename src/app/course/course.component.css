@@ -1,0 +1,21 @@
+.course
+{
+    background-color: #eff6ef;
+    padding: 50px 100px;
+}
+
+.box
+{
+    background-color: #ffffff;
+    padding: 10px 20px;
+}
+
+@media screen
+ {
+    .course
+    {
+        background-color: #eff6ef;
+        padding: 50px 10px;
+    }
+    
+}
